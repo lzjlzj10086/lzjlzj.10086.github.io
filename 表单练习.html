@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册个人信息</title>
+</head>
+
+<body>
+<table align="center" border="2" width="400" height="600">
+ <form method="post" action="第一个html.html">
+  <tr>
+  <td>用户名：</td>
+  <td><input name="username" type="text"/></td>
+  </tr>
+  <tr>
+  <td>密码:</td>
+  <td><input name="password" type="password"/></td>
+  </tr>
+  <tr>
+  <td>性别：</td>
+  <td>男<input checked="true" name="sex" value="men" type="radio"/>女<input name="sex" value="women" type="radio"/></td>
+  </tr>
+  <tr>
+  <td>爱好：</td>
+  <td>篮球：<input name="like" value="篮球" checked="true" type="checkbox"/>足球:<input name="like" value="足球" type="checkbox"/>羽毛球:<input name="like" value="羽毛球" type="checkbox"/></td>
+  </tr>
+  <tr>
+  <td>来自哪个城市：</td>
+  <td><select name="city">
+  <option value="北京">北京</option>
+  <option value="上海">上海</option>
+  <option value="广州">广州</option>
+  <option value="湛江">湛江</option></select></td>
+  </tr>
+  <tr>
+  <td>文件：</td>
+  <td><input name="file" type="file"/></td>
+  </tr>
+  <tr>
+  <td>简历：</td>
+  <td><textarea name="简历" rows="3" cold="5"></textarea></td>
+  </tr>
+  <tr>
+  <td colspan="2"><input align="middle" type="submit" value="提交数据"/><input align="middle" type="reset" value="重置"/></td>
+  </tr>
+ </form>
+</table>
+</body>
+</html>
